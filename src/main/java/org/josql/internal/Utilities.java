@@ -1545,6 +1545,15 @@ public class Utilities
 		// This arg is a number, need to now convert to the type in the args.
 		Number arg = (Number) args[i];
 
+		if (arg == null)
+		{
+
+		    nargs[i] = null;
+
+		    continue;
+
+		}
+
 		if (Double.class.isAssignableFrom (c))
 		{
 
