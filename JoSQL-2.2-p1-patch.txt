@@ -1,0 +1,20 @@
+diff --git a/src/main/java/org/josql/internal/Utilities.java b/src/main/java/org/josql/internal/Utilities.java
+index d6da27f..2558921 100644
+--- a/src/main/java/org/josql/internal/Utilities.java
++++ b/src/main/java/org/josql/internal/Utilities.java
+@@ -1545,6 +1545,15 @@ public class Utilities
+ 		// This arg is a number, need to now convert to the type in the args.
+ 		Number arg = (Number) args[i];
+ 
++		if (arg == null)
++		{
++
++		    nargs[i] = null;
++
++		    continue;
++
++		}
++
+ 		if (Double.class.isAssignableFrom (c))
+ 		{
+ 
