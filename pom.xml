@@ -133,17 +133,17 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   
   </dependencies>
 
-  <build>
+<!--   <build> -->
   
-    <testResources>
-      <testResource>
-        <directory>${project.basedir}/src/test/java</directory>
-      </testResource>
-      <testResource>
-        <directory>${project.basedir}/src/test/resources</directory>
-      </testResource>
-    </testResources>
+<!--     <testResources> -->
+<!--       <testResource> -->
+<!--         <directory>${project.basedir}/src/test/java</directory> -->
+<!--       </testResource> -->
+<!--       <testResource> -->
+<!--         <directory>${project.basedir}/src/test/resources</directory> -->
+<!--       </testResource> -->
+<!--     </testResources> -->
   
-  </build>
+<!--   </build> -->
 
 </project>
